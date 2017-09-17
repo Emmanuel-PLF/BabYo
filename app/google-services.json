@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "635556350799",
+    "firebase_url": "https://babyo-2c2ff.firebaseio.com",
+    "project_id": "babyo-2c2ff",
+    "storage_bucket": "babyo-2c2ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635556350799:android:a0117aa454880780",
+        "android_client_info": {
+          "package_name": "com.example.manu.firstapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635556350799-hbacmfuetag2kj5p8guv1nobqq7085n3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.manu.firstapp",
+            "certificate_hash": "de392ec25ece92d07245c29398f1aab665b550cf"
+          }
+        },
+        {
+          "client_id": "635556350799-eq9gdn9guhuhcu5tgsnnap94ru7sramu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9gViMKq18L-ntoLXpdCQPLIGWN9cRdHY"
+        },
+        {
+          "current_key": "AIzaSyCiZQevyHl2jD3Jl7NCXl1nPLdPRtvM3W8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635556350799-eq9gdn9guhuhcu5tgsnnap94ru7sramu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

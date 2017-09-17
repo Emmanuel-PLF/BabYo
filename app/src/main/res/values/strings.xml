@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BabYo</string>
+    <string name="title_options">Options</string>
+    <string name="title_remove_play">Supprimer la partie !</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="newpart">Nouvelle Partie !</string>
+    <string name="lib_joueurs">Joueurs sur la partie en cours : </string>
+    <string name="default_notification_channel_id" translatable="false">baby_channel_id</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <string name="default_notification_channel_name" translatable="true">BabyFoot</string>
+    <string name="msg_yobutton" translatable="false">Je veux jouer !</string>
+    <string name="error_pseudo" translatable="false">Vous devez renseigner votre pseudo...</string>
+</resources>
