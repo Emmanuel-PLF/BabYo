@@ -4,16 +4,15 @@ import android.os.Bundle
 import android.support.design.widget.BottomNavigationView
 import android.support.v7.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
-
-import android.app.NotificationChannel;
-import android.app.NotificationManager;
-import android.content.Context;
-import android.os.Build;
-import android.util.Log;
-import android.view.View;
-import android.widget.Button;
+import android.app.NotificationChannel
+import android.app.NotificationManager
+import android.content.Context
+import android.os.Build
+import android.util.Log
+import android.view.View
+import android.widget.Button
 import android.widget.TextView
-import android.widget.Toast;
+import android.widget.Toast
 import com.google.firebase.iid.FirebaseInstanceId
 import com.google.firebase.messaging.FirebaseMessaging
 import android.content.Intent
@@ -72,8 +71,6 @@ class MainActivity : AppCompatActivity() {
                 return true
             }
             else ->
-                // If we got here, the user's action was not recognized.
-                // Invoke the superclass to handle it.
                 return super.onOptionsItemSelected(item)
         }
     }
@@ -94,8 +91,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //val myToolbar = findViewById<View>(R.id.bab_toolb) as Toolbar
-        //setSupportActionBar(myToolbar)
 
         //navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
 
@@ -127,6 +122,8 @@ class MainActivity : AppCompatActivity() {
                 Log.d(TAG, "Key: $key Value: $value")
             }
         }
+
+        PreferenceManager.setDefaultValues(this, R.xml.preferences, false)
         // [END handle_data_extras]
 
         FirebaseMessaging.getInstance().subscribeToTopic("baby")
@@ -153,13 +150,7 @@ class MainActivity : AppCompatActivity() {
         byRestC.getPlayersName()
 
         }
-        //val prefs = PreferenceManager.getDefaultSharedPreferences(this)
-        // val pseudo = prefs.getString(SettingsActivity.KEY_PREF_PSEUDO, "")
-        //if (pseudo.isNullOrBlank() ) {
-
-        //}
-        //val pseudob = prefs.getString(SettingsActivity.KEY_PREF_PSEUDO, "")
-        //Log.d(TAG, "Le pseudo est $pseudob")
+        
 
 
     private val receiver = object : BroadcastReceiver() {
